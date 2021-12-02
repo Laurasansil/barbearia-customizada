@@ -1,0 +1,388 @@
+header {
+  background: url(barber-header.jpg);
+  
+  padding: 20px 0
+}
+
+body {
+  font-size: 20px;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+.body h3{
+  
+}
+
+.header-links:hover {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 1s font-size;
+}
+
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.produtos {
+  width: 940px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin: 0 1%;
+  border: 2px solid #cccccc;
+  box-shadow: 10px 10px 10px #cccccc;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: #0000ff;
+  width: 32%;
+  transition: 2s;
+}
+
+.produtos li:active {
+  border-color: #00ff00;
+}
+
+.produtos li:hover h2 {
+  transition: 2s;
+color: #3a3ac2;
+  font-size: 34px
+}
+
+.produtos li:hover p {
+  transition: 2s;
+  color: #3a3ac2;
+    font-size: 22px
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descricao {
+  font-size: 18px;
+}
+
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(#08111b, #000000);
+  padding: 0 40px 0;
+  height: 100%;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+
+
+form {
+  margin: 40px 0 40px 40px;
+}
+
+form label,
+form legend {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.label-input {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  box-shadow: 10px 10px 10px #cccccc;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+}
+
+.input-padrao:hover {
+  border-color: #3a3ac2;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: #3a3ac2;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: darkblue;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 40px;
+}
+
+thead {
+  background: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 8px 15px;
+  border: 1px solid #000000;
+}
+
+/* css da pagina inicial*/
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+  clear: left;
+  font-weight: bold;
+}
+
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+.principal p {
+  margin: 0 0 1em;
+
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.mapa {
+  padding: 3em 0;
+  background: linear-gradient(#415a77,#1b263b)
+}
+
+.titulo-mapa{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+  clear: left;
+  font-weight: bold;
+  color: #FEFEFE;
+
+}
+
+
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+  color: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
+
+  
+}
+
+
+.beneficios {
+  background: linear-gradient(#1b263b, #0d1b2a)
+  
+}
+.titulo-beneficios {
+  text-transform: uppercase;
+  text-align: start;
+  font-size: 2em;
+  padding: 10px 0 30px 0;
+  clear: left;
+  font-weight: bold;
+  color: #FEFEFE;
+  ;
+}
+.conteudo-beneficios {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+.lista-beneficios {
+  align-items: center;
+  width: 20%;
+  display: inline-block;
+  padding-right:5%;
+  vertical-align: top;
+
+}
+
+.imagem-beneficios {
+  width: 65%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px#08111b;
+
+
+}
+
+.imagem-beneficios:hover{
+  opacity: 0.3;
+}
+
+.itens{
+  line-height: 1.5;
+
+  color: #FEFEFE;
+}
+
+.itens:before{
+  content: "✅";
+}
+
+
+.titulo-video{
+  text-align: center;
+  font-size: 2em;
+  padding: 10px 0 30px 0;
+
+ 
+  clear: left;
+  font-weight: bold;
+  color: #FEFEFE;
+  ;
+}
+
+.video {
+  width: 944px;
+  height: 610px;
+  margin: 2em auto 0  auto;
+}
+
+@media screen and (max-width: 320px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+    width: auto;
+
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav{
+    position: static;
+  }
+
+.lista-beneficios, .imagem-beneficios{
+  width: 100%;
+}
+
+}
+
+
+/* NOTAS  
+
+
+ O seletor > representa um filho direto, então você consegue selecionar somente o paragrafo diretamente encontrado na main. Se não usarmos o > o css vai entender como TODOS os paragrafos, mesmo os da section pois está alocada na main, devem ter esse bg red
+
+main > p {
+  background-color: red;
+}
+
+ Se quiser selecionar o primeiro paragrafo que vem depoisde uma imagem podemos usar + para simbolizar o proximo irmao, que é o p
+
+img + p {
+  background-color: #0000ff;
+
+}
+
+ com o seletor ~ você declara que TODOS os proximos paragrafos depois da imagem, ainda na mesma section devem ser verdes
+img ~ p {
+  background-color:#00FF00
+}
+
+ exclusão de elementos, utilizando o :not(#nomedoid) conseguimos excluir um elemento do estilo para que ele nao seja afetado*
+
+.principal p:not(#missao){
+  background-color: orange;
+}
+
+ */
+ 
